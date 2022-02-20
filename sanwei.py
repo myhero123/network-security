@@ -21,7 +21,8 @@ def euclidean_distance(one_sample, X):
     distances = np.power(np.tile(one_sample, (X.shape[0], 1)) - X, 2).sum(axis=1)
     return distances
 
-
+def do_test():
+    pass
 class Kmeans():
     """Kmeans聚类算法.
     Parameters:
